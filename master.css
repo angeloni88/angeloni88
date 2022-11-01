@@ -1,0 +1,90 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 100px;
+}
+
+header{
+  text-align: center;
+  color: #04dc04;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+nav{
+  padding: 10px;
+  text-align: center;
+  background-color: Green;
+  border-radius: 6px;
+}
+
+nav > button{
+  background-color: Green;
+  border-color: white;
+  border-style: solid;
+  color: black;
+  font-size: 20px;
+  padding: 10px ;
+  text-align: center;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+nav > button:hover{
+  background-color: green;
+  color: white;
+}
+
+main{
+  color: white;
+}
+
+.scooter{
+  margin-top: 20px;
+}
+
+.scooter > .distance{
+  font-weight: 300;
+  display: block;
+}
+
+.full-bar{
+  width: 100%;
+  height: 25px;
+  text-align: left;
+  background-color: green;
+  border-radius: 6px;
+}
+
+.med-bar{
+  width: 50%;
+  height: 25px;
+  text-align: left;
+  background-color: yellow;
+  border-radius: 6px;
+}
+
+.low-bar{
+  width: 20%;
+  height: 25px;
+  text-align: left;
+  background-color: Red;
+  border-radius: 6px;
+}
